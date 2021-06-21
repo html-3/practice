@@ -1,8 +1,8 @@
-from function import ReverseString
+from functiom import ReverseString
 
 # hypothetical list to test the function.
 testset = [
-            "Hello World and Coders",
+            "Hello World",
             "Coderbyte",
             "12345",
             "above\nbelow"
