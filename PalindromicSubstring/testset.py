@@ -7,6 +7,7 @@ testset = [
             "1331",
             "aracecar"
           ] 
+          
 # testing every string in the list
 for i in testset:
     print(PalindromicSubstring(i))
