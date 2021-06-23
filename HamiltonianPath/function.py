@@ -1,6 +1,6 @@
-def HamiltonianPath(string):
+def HamiltonianPath(stringInput):
   
-  rawList = list(string)
+  rawList = list(stringInput)
 
   # string of the vertices or nodes
   vList = rawList[0]

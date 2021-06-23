@@ -1,7 +1,7 @@
-def PalindromicSubstring(string):
+def PalindromicSubstring(stringInput):
   
   # length of the main string
-  strLength = len(string)
+  strLength = len(stringInput)
 
   # preset max length and starting index of the LPS
   maxLength = 0
@@ -21,7 +21,7 @@ def PalindromicSubstring(string):
       # simetrical to its other half
       for k in range(0, (j - i) // 2 + 1):
         # single diference causes to loose palindromic status
-        if (string[i + k] != string[j - k]):
+        if (stringInput[i + k] != stringInput[j - k]):
           check = 0
 
       # checks if substring is palindromic and the longest
@@ -38,4 +38,4 @@ def PalindromicSubstring(string):
     return ""
 
   # output
-  return string[startIndex:endIndex]
+  return stringInput[startIndex:endIndex]
