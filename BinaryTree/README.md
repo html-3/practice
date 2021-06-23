@@ -7,3 +7,7 @@ Have the function `BinaryTree(listInput)` take the array of strings stored in `l
 which you can see forms a proper binary tree. Your program should, in this case, return the string true because a valid binary tree can be formed. If a proper binary tree cannot be formed with the integer pairs, then return the string false. All of the integers within the tree will be unique, which means there can only be one node in the tree with the given integer value.
 
 [Link Coderbyte](https://coderbyte.com/editor/Tree%20Constructor:Python3)
+
+## Analyze the problem
+
+## Algorith design

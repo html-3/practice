@@ -26,8 +26,8 @@ def BinaryTree(listInput):
     # one child node has two parents
     if dictNodes.get(childNode):
       return "false"
-    dictNodes[childNode] = parentNode
 
+    dictNodes[childNode] = parentNode
     j += 2
 
   # list of parent nodes
