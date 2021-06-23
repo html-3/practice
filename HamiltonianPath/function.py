@@ -1,36 +1,36 @@
 def HamiltonianPath(stringInput):
-  
+  # parsing string
   rawList = list(stringInput)
 
   # string of the vertices or nodes
-  vList = rawList[0]
+  nodesList = rawList[0]
   
   # string of the edges or conections
-  cList = rawList[1]
+  conectionsList = rawList[1]
   
   # string of the order in which the vertices are reached
-  oList = rawList[2]
+  orderList = rawList[2]
 
   # list of the path in the graph
-  pList = oList[1]
+  pathList = orderList[1]
   
   # i is the current step of the path order
-  for i in range(3,len(oList),2):
+  for i in range(3,len(orderList),2):
     # step to compare with edges
-    step = f"{oList[i-2]}-{oList[i]}"
-    invstep = f"{oList[i]}-{oList[i-2]}"
+    step = f"{orderList[i-2]}-{orderList[i]}"
+    invstep = f"{orderList[i]}-{orderList[i-2]}"
 
     # must be a valid edge from the 
-    if cList.find(step) == -1 and cList.find(invstep) == -1:
-      return oList[i-2]
+    if conectionsList.find(step) == -1 and conectionsList.find(invstep) == -1:
+      return orderList[i-2]
 
     # must not be crossed twice
-    elif not pList.find(step[-1]):
-      return oList[i]
+    elif not pathList.find(step[-1]):
+      return orderList[i]
 
     # add the current step to the path already taken
     else:
-      pList = pList+step[-1]
+      pathList = pathList+step[-1]
 
   return "yes"
 

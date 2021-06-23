@@ -35,7 +35,7 @@ def PalindromicSubstring(stringInput):
   
   # if LPS is only two or less characters, returns 'none'
   if maxLength <= 2:
-    return ""
+    return "none"
 
   # output
   return stringInput[startIndex:endIndex]

@@ -7,3 +7,7 @@ For example: if `stringInput` is ["(A,B,C,D)","(A-B,A-D,B-D,A-C)","(C,A,D,B)"] t
 
 The graph will have at least 2 vertices and all the vertices in the graph will be connected.
 The function should return `yes` if the set path is possible and Hamiltonian, else it should return the last valid node of the set path.
+
+## Analyze the problem
+
+## Algorith design

@@ -13,7 +13,19 @@ testset = [
             ["(A,B,C,D,E,F)","(A-B,A-D,B-D,B-C,C-F,E-D)","(E,F,C,B,D,A)"],
             ["(A,B,C,D,E,F,G)","(A-B,A-D,B-D,B-C,C-F,E-D,F-E,G-F)","(G,F,E,D,B,C,A)"]
           ]
-          
+
+          # Correct outputs
+          # yes
+          # B  
+          # yes
+          # Q  
+          # yes
+          # Z  
+          # yes
+          # yes
+          # E  
+          # C  
+
 # testing every string in the list
 for i in testset:
     print(HamiltonianPath(i))

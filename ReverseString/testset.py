@@ -7,6 +7,13 @@ testset = [
             "12345",
             "above\nbelow"
           ]
+
+          # Correct Outputs
+          # dlroW olleH
+          # etybredoC
+          # 54321    
+          # woleb
+          # evoba   
           
 # testing every string in the list
 for i in testset:

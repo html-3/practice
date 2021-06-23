@@ -6,3 +6,7 @@ Have the function `PalindromicSubstring(stringInput)` take the `stringInput` par
 For example: if the input string is "aneevee" then your program should return the string "eevee". The input will only contain lowercase alphabetic characters.
 
 The input will only contain lowercase alphabetic characters. The longest palindromic substring will always be unique, but if there is none that is longer than 2 characters, return the string none.
+
+## Analyze the problem
+
+## Algorith design
