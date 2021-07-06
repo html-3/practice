@@ -9,4 +9,4 @@ The input will only contain lowercase alphabetic characters. The longest palindr
 
 ## Analyze the problem
 
-## Algorith design
+## Algorithm design

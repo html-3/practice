@@ -10,4 +10,4 @@ which you can see forms a proper binary tree. Your program should, in this case,
 
 ## Analyze the problem
 
-## Algorith design
+## Algorithm design

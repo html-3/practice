@@ -5,4 +5,4 @@
 
 ## Analyze the problem
 
-## Algorith design
+## Algorithm design

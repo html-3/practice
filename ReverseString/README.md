@@ -8,4 +8,4 @@ Have the function `ReverseString(stringInput)` take the `stringInput` parameter 
 
 ## Analyze the problem
 
-## Algorith design
+## Algorithm design

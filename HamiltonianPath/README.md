@@ -10,4 +10,4 @@ The function should return `yes` if the set path is possible and Hamiltonian, el
 
 ## Analyze the problem
 
-## Algorith design
+## Algorithm design
