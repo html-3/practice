@@ -23,14 +23,17 @@ def DifferentChanges(n):
     # correction
     solutions[0][0] = 1
 
-    # line
+    # line loop
     for i in range(2, numberCoins):
 
-        # column
+        # column loop
         for j in range(1, value + 1):
             
+            # out of range
             if j - listCoins[i] < 0:
                 solutions[i][j] = solutions[i - 1][j] + 0
+            
+            # normal procedure
             else:
                 solutions[i][j] = solutions[i - 1][j] + solutions[i][j - listCoins[i]]
 

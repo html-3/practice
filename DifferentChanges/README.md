@@ -53,7 +53,13 @@ solution(2, 1) = solution(1, 1) + solution(1, 1) = 1 + 1
 
 solution(2, 3) = 3
 ```
-As demonstrated, the solutions come from subproblems, which invites dynamic programming.
+As demonstrated, the solutions come from subproblems, which invites dinamic programming.
 
 
 ## Algorithm design
+
+The algorith is designed with a bottom-up dinamic programming aproach. Where smaller problems are solved first to reach the final, or maximum value.
+1. The `list` of coins and size of the value in cents are declared
+2. The array that contains all the values is formed (as shown in the table above) made from `lists`.
+3. A `for` loop nested within another `for` loop is used to iterate over all the cells of the array.
+4. An `if` statement is set to avoid out of index and wrong values for the array.
