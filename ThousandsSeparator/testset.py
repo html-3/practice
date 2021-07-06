@@ -1,6 +1,6 @@
 from function import ThousandsSeparator
 
-# hypothetical list to test the function.
+# hypothetical list to test the function
 testset = [
             420,
             1000,
@@ -18,6 +18,6 @@ testset = [
           # 99,999,999
           # 123,456,789 
 
-# testing every integer in the list
+# testing every input in the list
 for i in testset:
     print(ThousandsSeparator(i))

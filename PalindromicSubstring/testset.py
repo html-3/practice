@@ -1,6 +1,6 @@
 from function import PalindromicSubstring
 
-# hypothetical list to test the function.
+# hypothetical list to test the function
 testset = [
             "abcdefgg",
             "dogcatfish",
@@ -14,6 +14,6 @@ testset = [
           # 1331
           # racecar
           
-# testing every string in the list
+# testing every input in the list
 for i in testset:
     print(PalindromicSubstring(i))

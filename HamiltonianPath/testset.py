@@ -1,6 +1,6 @@
 from function import HamiltonianPath
 
-# hypothetical list to test the function.
+# hypothetical list to test the function
 testset = [
             ["(A,B,C,D)","(A-B,A-D,B-D,A-C)","(C,A,D,B)"],
             ["(A,B,C,D)","(A-B,A-D,B-D,A-C)","(D,A,B,C)"],
@@ -26,6 +26,6 @@ testset = [
           # E  
           # C  
 
-# testing every string in the list
+# testing every input in the list
 for i in testset:
     print(HamiltonianPath(i))

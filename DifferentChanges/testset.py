@@ -1,6 +1,6 @@
 from function import DifferentChanges
 
-# hypothetical list to test the function.
+# hypothetical list to test the function
 testset = [
             0.01,
             0.02,
@@ -28,6 +28,6 @@ testset = [
           # 4563
           # 73682
 
-# testing every string in the list
+# testing every input in the list
 for i in testset:
     print(DifferentChanges(i))

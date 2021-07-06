@@ -1,6 +1,6 @@
 from function import ReverseString
 
-# hypothetical list to test the function.
+# hypothetical list to test the function
 testset = [
             "Hello World",
             "Coderbyte",
@@ -15,6 +15,6 @@ testset = [
           # woleb
           # evoba   
           
-# testing every string in the list
+# testing every input in the list
 for i in testset:
     print(ReverseString(i))
